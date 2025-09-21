@@ -1,0 +1,46 @@
+.root {
+    -fx-background-image: url("/photos/LoginL.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+#content {
+    -fx-padding: 40 0 0 40 /* top right bottom left */
+}
+
+#pos {
+    
+    -fx-padding: 20 0 0 110;
+}
+
+.label {
+    -fx-min-width: 80;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 150px;
+    -fx-padding: 6 8;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #ccc;
+}
+
+.button {
+    -fx-pref-width: 150px;
+    -fx-background-color: #0078d7;
+    -fx-min-width: 70;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #005fae;
+}
+
