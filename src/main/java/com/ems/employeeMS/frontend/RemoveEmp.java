@@ -53,6 +53,13 @@ public class RemoveEmp extends Application {
 
 	        java.net.http.HttpResponse<String> response = client.send(request,
 	                java.net.http.HttpResponse.BodyHandlers.ofString());
+	        
+	        String body = response.body();
+
+	        if (body == null || body.isBlank()) {
+	            return null;
+	        }
+
 
 	        com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
 	        return mapper.readValue(response.body(), AddEmpEntity.class);
@@ -75,7 +82,7 @@ public class RemoveEmp extends Application {
 	        java.net.http.HttpResponse<String> response = client.send(request,
 	                java.net.http.HttpResponse.BodyHandlers.ofString());
 
-	        return response.statusCode() == 200; // या API के अनुसार check करो
+	        return response.statusCode() == 200;
 
 	    } catch (Exception e) {
 	        e.printStackTrace();
@@ -122,7 +129,7 @@ public class RemoveEmp extends Application {
                     tname.setText("");
                     tphone.setText("");
                     temail.setText("");
-                    empidBox.getEditor().setText("");
+                    empidBox.setValue(null);
 
                 }
             }
