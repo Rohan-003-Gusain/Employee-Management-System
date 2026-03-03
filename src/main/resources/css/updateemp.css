@@ -1,0 +1,65 @@
+#mainGrid {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: 'Arial';
+    
+}
+
+#top-heading {
+    -fx-font-size: 30px;
+    -fx-pref-width: 400px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e64fe;
+    -fx-padding: 0 0 50 0;  
+    -fx-wrap-text: true;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-pref-width: 180px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;       
+}
+
+.text-field {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 15px;      
+}
+
+.readonly-field {
+    -fx-background-color: transparent;  
+    -fx-border-color: transparent;      
+    -fx-text-fill: #2e6fe2;                
+    -fx-font-size: 15px;                
+    -fx-opacity: 1;                      
+}
+
+.combo-box {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 150px;
+    -fx-font-size: 14px;
+    
+}
+
+#tempid-css {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+
+}
+
+.my-button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 35px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+
+.my-button:hover {
+    -fx-background-color: #45a049;
+}

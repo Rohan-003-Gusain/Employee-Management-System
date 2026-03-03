@@ -1,0 +1,45 @@
+.root {
+    -fx-background-image: url("/photos/rback.png");
+    -fx-background-size: 900px 400px;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+#grid-pane {
+    -fx-hgap: 40px;
+    -fx-vgap: 20px;
+    -fx-padding: 60 0 0 80;
+    -fx-pref-width: 400px;   
+    -fx-max-width: 400px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+.readonly-field {
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-background-color: #2e8b57;
+    -fx-text-fill: #fff;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #246b45;
+}
+
+.combo-box {
+    -fx-pref-width: 150px;
+    -fx-font-size: 14px;
+}
+
