@@ -1,0 +1,35 @@
+# compiled files
+*.class
+*.log
+
+# build folders
+target/
+build/
+out/
+bin/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# temp files
+*.tmp
+logs/
+tmp/
+
+# database local files
+*.db
+*.sql-wal
+*.sql-shm
+
+# java crash
+hs_err_pid*
+replay_pid*
